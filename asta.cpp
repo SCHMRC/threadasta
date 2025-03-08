@@ -11,8 +11,7 @@ void offerta(int offerte[], int max, int numcomp){
        sleep(rand()%3+1);
        int offerta = rand()%41 + 10;
        offerte[i]=offerta;
-       cout<<"Turno numero "<<i+1<<" compratore "<<numcomp<<" ha offerto: "<<offerta<<" per un totale di 
-"<<(somma+=offerta)<<endl;
+       cout<<"Turno numero "<<i+1<<" compratore "<<numcomp<<" ha offerto: "<<offerta<<" per un totale di "<<(somma+=offerta)<<endl;
     }
 }
 
